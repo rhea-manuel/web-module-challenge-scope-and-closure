@@ -184,7 +184,7 @@ function scoreboard(getInningScore, singleInning, inningNumber) {
       homeScore += curScores.Home;
 
       const toAdd = {
-        [`${i}${numEnding} inning`]: [`${awayScore} - ${homeScore}`]
+        [`${i}${numEnding} inning`]: `${awayScore} - ${homeScore}`
       }
 
       scores.push(toAdd);
